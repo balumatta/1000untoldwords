@@ -1,0 +1,2 @@
+Django==2.1.2
+django_easy_pdf==0.1.1

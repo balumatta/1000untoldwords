@@ -1,0 +1,114 @@
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.errorlist li {
+    color: red;
+}
+
+.notification{
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    z-index: 10000;
+}
+.navbar-brand img{
+	height: 35px;
+}
+
+.instruction{
+	padding: 25px;
+}
+.instruction img{
+	width: 100%;
+}
+
+dropbtn {
+background-color: #d66d04;
+color: black;
+padding: 5px;
+font-size: 12px;
+border: none;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+font-size: 12px;
+min-width: 100px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 6px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #9b4f03;}
+
+/* The Modal (background) */
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 50%;
+}
+
+/* The Close Button */
+.close {
+color: #aaaaaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.selectorIgnoreFirst:focus option:first-of-type {
+display: none;
+}
+
+.popupOkBtn {
+background-color: #d66d04;
+float: right;
+font-size: 16px;
+font-weight: bold;
+}

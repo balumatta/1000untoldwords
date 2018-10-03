@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+
+{% block style_block %}
+{% endblock %}
+
+
+{% block body_block %}
+<div id="login">
+    <div class="container">
+        <div id="login-row" class="row justify-content-center align-items-center">
+            <div id="login-column" class="col-md-6">
+                <div id="login-box" class="col-md-12">
+                    <form id="login-form" class="form" action="" method="post">
+                        <h5 class="text-center text-info">Provide your valuable review</h5>
+                        {% csrf_token %}
+
+                        {% for field in form %}
+                        {% if field.errors %}
+                        <div class="form-group">
+                            <label for="id_{{ field.name }}" class="text-info">{{ field.label }}</label><br>
+
+                            {{ field|attr:"class:form-control" }}
+                            <span class="help-block">
+                            {% for error in  field.errors %}{{ error }}{% endfor %}
+                        </span>
+                        </div>
+                        {% else %}
+                        <div class="form-group">
+                            <label for="id_{{ field.name }}" class="text-info">{{ field.label }}</label><br>
+                            {{ field|attr:"class:form-control" }}
+                            {% if field.help_text %}
+                            <p class="help-block">
+                                <small>{{ field.help_text }}</small>
+                            </p>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                        <button id="proceed_btn" style="float:right;background-color:#17a2b8;" class="btn btn-primary"
+                                type="submit"> Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
