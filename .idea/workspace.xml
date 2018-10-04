@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81963661-44b3-43f0-b2eb-be544f490f5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pdfPreviewPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pdfPreviewPage.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +39,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="html" value="171" />
+          <entry key="html" value="172" />
           <entry key="py" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="171" />
+          <entry key="HTML" value="172" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="154" />
         </counts>
@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/pdfPreviewPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            <state relative-caret-position="208">
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
               </folding>
@@ -96,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
@@ -132,10 +132,10 @@
       <list>
         <option value="$PROJECT_DIR$/book/views.py" />
         <option value="$PROJECT_DIR$/book/admin.py" />
-        <option value="$PROJECT_DIR$/templates/pdfPreviewPage.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/preface/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/templates/pdfPreviewPage.html" />
       </list>
     </option>
   </component>
@@ -342,16 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pdfPreviewPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -370,6 +360,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pdfPreviewPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
