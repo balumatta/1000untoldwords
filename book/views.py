@@ -8,7 +8,7 @@ from django import forms
 class UserDetailsCreateView(CreateView):
     model = UserDetails
     template_name = "welcomePage.html"
-    fields = ['name', 'phone']
+    fields = ['name']
     user_name = None
 
     def get_success_url(self):
